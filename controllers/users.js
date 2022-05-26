@@ -77,4 +77,14 @@ router.get('/logout', (req, res) => {
     res.redirect('/')
 })
 
+// GET /users/profile -- displays users profile pagr
+router.get('/profiles', (req, res) => {
+    // check if user is authorized
+    if (!res.locals.user) {
+        res.render('users/login', { msg: 'please log in to continue' })
+        return // end the route here
+    }
+    res.render('users/profile', { user: res.locals.user })
+})
+
 module.exports = router
