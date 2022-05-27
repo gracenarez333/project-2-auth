@@ -16,6 +16,19 @@ I will be using the [adopt a pet API](https://www.adoptapet.com/public/apis/pet_
 
 ## Wireframes
 
+# Homepage
+[Homepage](./img/home.png)
+# Login
+[Login](./img/login.png)
+# Sign Up
+[Sign Up](./img/signup.png)
+# Browse
+[Browse](./img/browse.png)
+# Profile
+[Profile](./img/profile.png)
+# About
+[About](./img/about.png)
+
 
 ## User Stories
 
