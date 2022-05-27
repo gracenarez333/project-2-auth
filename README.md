@@ -29,11 +29,23 @@ I will be using the [adopt a pet API](https://www.adoptapet.com/public/apis/pet_
 # About
 [About](./img/about.png)
 
-
 ## User Stories
 
 
 ## MVP Goals
-
+- [] Render all pages listed above
+- [] Encrypt usernames and emails and hash passwords for secure keeping
+- [] Add the ability to browse available pets for adoption
+- [] Have the ability to add to a list of favs
+- [] Login attempt messages and sign up messages
+- [] Render an error template
+- [] Ability to delete from favs
+- [] Logout and cookie clear ability
+- [] Save fav list information after logout
 
 ## Stretch Goals
+- [] Add ability to 'Adopt' pet
+- [] Render a search by key words to increase user view
+- [] Add profile specifications for potential adoptees
+- [] Add breeds model table 
+- [] 2 levels of auth, adopter, adoptee
